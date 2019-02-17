@@ -1,0 +1,51 @@
+.card{
+  width: 450px;
+  height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-body{
+    padding-bottom: 20px !important;
+}
+.title{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: var( --title-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px !important;
+    font-weight: normal;
+}
+.card-title{
+    padding-left: 20px;
+    color: #63CAA9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px !important;
+    font-weight: normal;
+}
+.send-button{
+    margin-top: 30px;
+    border-radius: 25px !important;
+    background-color: #63CAA9;;
+    border-color: #63CAA9;
+    width: 193px;
+    height: 46px;
+}
+.form-group{
+    margin-top: 30px;
+}
+.form-control{
+    border:0;
+    border-bottom: 1px solid #ced4da !important;
+    /* color: #B7B7B7; */
+    
+}
+.footer{
+    bottom: 30px;
+    left:36%;
+    position: absolute;
+    text-align: center;
+    color:  #B7B7B7;
+}
+/* validation */
+/* input:invalid {
+    border-bottom: 1px solid red !important;
+  } */

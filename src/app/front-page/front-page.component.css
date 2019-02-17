@@ -1,0 +1,12 @@
+.title h3{
+    color: var(--title-color);
+    font-size: var(--title-font-size);
+    /* margin-left: 1rem !important; */
+}
+.container-fluid{
+    max-width: 1200px;
+  }
+  .card-col{
+      margin-top: 30px;
+  }
+
