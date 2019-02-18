@@ -1,6 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
 
- html,body {
+/* Icons Materials */
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+ /* html,body {
     
       min-width:450px;
      }
@@ -8,4 +34,15 @@
      :root {
         --title-color: #626262;
         --title-font-size:23px;
-    }
+    } */
+   /* A Input global  */
+   a, a:hover, a:active {
+    text-decoration: none;
+  }
+  
+  a, button, input {
+    transition: all 0.5s ease;
+  }
+  
+  
+

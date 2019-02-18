@@ -1,0 +1,71 @@
+.offer-main-container{
+    margin-top: 62px;
+    background: #fff url(../../images/bg-header.jpg) no-repeat center top / cover; 
+}
+.offer{
+  padding-top: 277px;
+  padding-bottom: 357px; 
+}
+.offer__title {
+    color: #63caa9;
+    font-size: 60px;
+    font-weight: 800px;
+    width: 750px;
+    padding-bottom: 25px;
+}
+
+.offer__title_add {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: 900;
+	line-height: 1.15em;
+}
+/* Buttons */
+a, button, input {
+	transition: all 0.5s ease;
+}
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+
+.btn {
+	width: 195px;
+	line-height: 47px;
+	font-size: 16px; 
+	font-weight: 700;
+	color: #fff;
+	background: #63caa9;
+	border-radius: 100px;
+	outline: none;
+	border: none;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+/* WHO IS NETOPAYMENT */
+.who-is-netopayment{
+    display: flex;
+    flex-direction: row;
+    max-height: 1077px;
+    width: 100%;
+}
+.who-is-netopayment_image{
+    width: 100%;
+    background-image: url(../../images/who_netopayment.jpg)
+}

@@ -16,6 +16,7 @@ import { HttpModule } from '@angular/http';
 import { SendEmailComponent } from './send-email/send-email.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
+import { OfferComponent } from './offer/offer.component';
 
 const config = {
     apiKey: "AIzaSyA-u0g5-1pYQrDQx3K5NScIS5D2hZxKOgE",
@@ -36,7 +37,8 @@ const config = {
     FooterComponent,
     SendFormComponent,
     SendEmailComponent,
-    NavbarComponent
+    NavbarComponent,
+    OfferComponent
   ],
   imports: [  
     HttpClientModule,
