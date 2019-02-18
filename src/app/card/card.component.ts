@@ -16,16 +16,16 @@ export class CardComponent implements OnInit {
   ngOnInit() {
   }
 
-  onClick():void{
-    this.clicked=!this.clicked;
-    //debugger;
-  }
-  mouseover(){
-    this.clicked=true;
-    //debugger;
-  }
-  mouseout(){
-    this.clicked=false;
-    //debugger;
-  }
+  // onClick():void{
+  //   this.clicked=!this.clicked;
+  //   //debugger;
+  // }
+  // mouseover(){
+  //   this.clicked=true;
+  //   //debugger;
+  // }
+  // mouseout(){
+  //   this.clicked=false;
+  //   //debugger;
+  // }
 }

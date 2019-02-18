@@ -5,9 +5,14 @@
     border-radius: 0;
     cursor: pointer;
 }
-.card-body:hover{
+
+.card:hover .card-body{
     visibility: collapse;
 }
+.card:hover .ditail-info-container{
+    visibility: visible;
+}
+
 .logo-container{
     height: 90%;
     display: flex;
@@ -39,7 +44,7 @@
 /* Details-info */
 .ditail-info-container{
     position: absolute;
-    /* visibility: collapse; */
+    visibility: collapse;
     background-color: #60C9A7;
     cursor: pointer;
     color: whitesmoke;
